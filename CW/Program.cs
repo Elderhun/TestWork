@@ -23,3 +23,17 @@
 
 return strMass;
 }
+
+string[] strArr = StringArr();
+string dd; int size = 0;
+
+for (int i = 0; i < strArr.Length; i++)
+{
+    dd = strArr[i];
+
+    if(dd.Length <= 3)
+    {
+    size += 1;
+    }
+
+}
