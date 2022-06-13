@@ -38,7 +38,7 @@ for (int i = 0; i < strArr.Length; i++)
     }
 
 }
-
+//3 Этап
 string[] NewStringArr(string[] resourceArr)
 {
     string dd = string.Empty;
