@@ -1,4 +1,5 @@
-﻿string[] StringArr()
+﻿// 1 Этап
+string[] StringArr()
 {
     string resource = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+<=+";
     Random rnd = new Random();
@@ -23,7 +24,7 @@
 
 return strMass;
 }
-
+// 2 Этап
 string[] strArr = StringArr();
 string dd; int size = 0;
 
