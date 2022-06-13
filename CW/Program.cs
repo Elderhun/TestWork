@@ -66,3 +66,5 @@ string printArr = "[" + string.Join(", ", strArr) + "]";
 string printNewArr = "[" + string.Join(", ", ss) + "]";
 Console.WriteLine(printArr + " задан рандомный строковый массив");
 Console.WriteLine(printNewArr + " Новый строковый массив, длина элементов не более 3 знаков");
+
+// Вывод: Создали стартовый массив из случайных символов, из него сделали массив из элемнтов длина которых не более 3 символов.
