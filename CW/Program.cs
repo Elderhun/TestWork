@@ -38,3 +38,31 @@ for (int i = 0; i < strArr.Length; i++)
     }
 
 }
+
+string[] NewStringArr(string[] resourceArr)
+{
+    string dd = string.Empty;
+
+    string[] nStringArr = new string[size];
+    int pos = 0;
+
+    for (int i = 0; i < resourceArr.Length; i++)
+    {
+        dd = resourceArr[i];
+
+        if(dd.Length <= 3)
+        {
+            nStringArr[pos] = dd;
+            pos ++;
+        }
+
+    }
+
+return nStringArr;
+}
+
+string[] ss = NewStringArr(strArr);
+string printArr = "[" + string.Join(", ", strArr) + "]";
+string printNewArr = "[" + string.Join(", ", ss) + "]";
+Console.WriteLine(printArr + " задан рандомный строковый массив");
+Console.WriteLine(printNewArr + " Новый строковый массив, длина элементов не более 3 знаков");
