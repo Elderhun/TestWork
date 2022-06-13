@@ -37,6 +37,3 @@ for (int i = 0; i < strArr.Length; i++)
     }
 
 }
-
-string printArr = "[" + string.Join(", ", strArr) + "]";
-Console.WriteLine(printArr + "размер будущего массива" + size);
